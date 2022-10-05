@@ -1,0 +1,40 @@
+{
+    "dalian": { "selected": [], "rejected": [], "last-seen": "" },
+    "dongguan": { "selected": [], "rejected": [], "last-seen": "" },
+    "bejing": {
+        "selected": [
+            "training-data\\bejing\\view1\\1.png",
+            "training-data\\bejing\\view1\\10.png",
+            "training-data\\bejing\\view1\\100.png",
+            "training-data\\bejing\\view1\\1002.png",
+            "training-data\\bejing\\view1\\1003.png",
+            "training-data\\bejing\\view2\\1004.png",
+            "training-data\\bejing\\view2\\1006.png",
+            "training-data\\bejing\\view1\\1009.png",
+            "training-data\\bejing\\view1\\101.png",
+            "training-data\\bejing\\view2\\101.png",
+            "training-data\\bejing\\view2\\1010.png",
+            "training-data\\bejing\\view2\\1011.png",
+            "training-data\\bejing\\view1\\1012.png",
+            "training-data\\bejing\\view2\\1012.png",
+            "training-data\\bejing\\view1\\1013.png",
+            "training-data\\bejing\\view1\\1014.png",
+            "training-data\\bejing\\view2\\1014.png",
+            "training-data\\bejing\\view1\\1015.png",
+            "training-data\\bejing\\view1\\1017.png",
+            "training-data\\bejing\\view2\\1017.png",
+            "training-data\\bejing\\view1\\1019.png",
+            "training-data\\bejing\\view2\\1019.png",
+            "training-data\\bejing\\view1\\102.png"
+        ],
+        "rejected": [
+            "1000.png",
+            "1001.png",
+            "training-data\\bejing\\view1\\1016.png",
+            "training-data\\bejing\\view2\\1016.png",
+            "training-data\\bejing\\view1\\1020.png",
+            "training-data\\bejing\\view2\\1020.png"
+        ],
+        "last-seen": "1020.png"
+    }
+}
