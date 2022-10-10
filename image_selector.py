@@ -107,9 +107,6 @@ def begin_selection(view1_dir, view2_dir, masks_dir, city_name):
         view2 = cv2.imread(view2_path)
         mask = cv2.imread(mask_path)
 
-        view1 = its_overlay_time(view1, mask)
-        return
-
         img = cv2.hconcat([view1, view2])
         cv2.resize(img, (img.shape[0] * 2, img.shape[1] * 2))
         # return
