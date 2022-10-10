@@ -105,7 +105,7 @@ def begin_selection(view1_dir, view2_dir, masks_dir, city_name):
 
         view1 = cv2.imread(view1_path)
         view2 = cv2.imread(view2_path)
-        mask = cv2.imread(mask_path)
+        # mask = cv2.imread(mask_path) don't need to import masks lol
 
         img = cv2.hconcat([view1, view2])
         cv2.resize(img, (img.shape[0] * 2, img.shape[1] * 2))
@@ -137,6 +137,11 @@ def begin_selection(view1_dir, view2_dir, masks_dir, city_name):
             return
 
         cv2.destroyAllWindows()
+
+        print(f"No of Selected: {len(city_data['selected'])}")
+        print(f"No of Rejected: {len(city_data['rejected'])}")
+        print()
+
         with open("dataList.json", "w") as f:
             f.write(json.dumps(data))
 
