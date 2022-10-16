@@ -1,5 +1,3 @@
-from distutils.log import error
-from turtle import clear
 import numpy as np
 import cv2
 import os
@@ -154,8 +152,8 @@ if __name__ == "__main__":
 
     city_index = int(input(">>"))
 
-    view1_dir = os.path.join("training-data", CITY_NAMES[city_index], "view1")
-    view2_dir = os.path.join("training-data", CITY_NAMES[city_index], "view2")
-    masks_dir = os.path.join("training-data", CITY_NAMES[city_index], "masks")
+    view1_dir = os.path.join("../../data/training-data", CITY_NAMES[city_index], "view1")
+    view2_dir = os.path.join("../../data/training-data", CITY_NAMES[city_index], "view2")
+    masks_dir = os.path.join("../../data/training-data", CITY_NAMES[city_index], "masks")
 
     begin_selection(view1_dir, view2_dir, masks_dir, CITY_NAMES[city_index])
